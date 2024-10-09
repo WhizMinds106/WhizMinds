@@ -55,17 +55,26 @@ class MainActivity : AppCompatActivity() {
 
     override fun onPause() {
         super.onPause()
-        MusicManager.pauseMusic()
+        // When the activity is paused (e.g., when minimized)
+        MusicManager.shouldPauseMusic = true
+        MusicManager.pauseMusic()  // Ensure music pauses when app is minimized
+    }
+
+    override fun onStop() {
+        super.onStop()
+        // Stop music here as well to cover all lifecycle states
+        MusicManager.pauseMusic()  // Ensures music pauses when fully stopped
     }
 
     override fun onResume() {
         super.onResume()
+        // Resume music only if needed
         MusicManager.resumeMusic()
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        MusicManager.stopMusic()
+        // Optionally stop music completely if the activity is destroyed
+        MusicManager.pauseMusic()
     }
-
 }

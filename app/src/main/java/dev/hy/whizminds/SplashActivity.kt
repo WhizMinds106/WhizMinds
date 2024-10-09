@@ -48,9 +48,9 @@ class SplashActivity : AppCompatActivity() {
         myImageButton.setOnClickListener {
             // Disable music pause during transition
             MusicManager.shouldPauseMusic = false
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, StudentMainActivity::class.java)
             startActivity(intent)
-            //finish()
+            finish()
         }
     }
 
@@ -66,6 +66,6 @@ class SplashActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        MusicManager.stopMusic()
+        MusicManager.pauseMusic()
     }
 }
