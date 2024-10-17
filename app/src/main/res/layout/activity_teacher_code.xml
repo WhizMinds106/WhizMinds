@@ -23,6 +23,36 @@
             android:inputType="text"
             android:padding="12dp" />
 
+        <Spinner
+            android:id="@+id/spinnerGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgSubject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbMath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Math"/>
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/rbEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="English"/>
+        </RadioGroup>
+
         <!-- Generate Section Code Button -->
         <Button
             android:id="@+id/btnGenerateCode"
@@ -40,9 +70,19 @@
             android:layout_height="wrap_content"
             android:text="Generated Section Code: "
             android:textSize="30sp"
+            android:textColor="@color/black"
             android:visibility="gone"
             android:layout_marginTop="16dp"
             android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnBackTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:background="@color/design_default_color_error"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

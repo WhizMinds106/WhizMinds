@@ -12,9 +12,15 @@ class TeacherDashboard : AppCompatActivity() {
         setContentView(R.layout.activity_teacher_dashboard)
 
         val classButton = findViewById<Button>(R.id.btnClass)
+        val logoutButton = findViewById<Button>(R.id.btnLogout)
 
         classButton.setOnClickListener {
-            startActivity(Intent(this, TeacherCodeActivity::class.java))
+            startActivity(Intent(this, TeacherClassActivity::class.java))
+            finish()
+        }
+
+        logoutButton.setOnClickListener {
+            startActivity(Intent(this, SplashActivity::class.java))
             finish()
         }
     }

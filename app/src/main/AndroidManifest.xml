@@ -15,6 +15,12 @@
         android:theme="@style/Theme.WhizMinds"
         tools:targetApi="31">
         <activity
+            android:name=".TeacherUpdateSectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherSectionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".TeacherClassActivity"
             android:exported="false" />
         <activity
