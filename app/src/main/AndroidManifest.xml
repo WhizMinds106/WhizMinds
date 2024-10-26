@@ -15,6 +15,33 @@
         android:theme="@style/Theme.WhizMinds"
         tools:targetApi="31">
         <activity
+            android:name=".QuizDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentActivitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadQuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherActivitiesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeacherProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".TeacherUpdateSectionActivity"
             android:exported="false" />
         <activity

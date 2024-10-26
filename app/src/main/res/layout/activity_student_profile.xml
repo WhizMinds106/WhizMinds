@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentProfileActivity"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvStudentProfile"
+            android:text="STUDENT PROFILE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="10dp" />
+
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etStudentAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etStudentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etMathClassJoined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Math Class Joined"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:layout_marginBottom="10dp" />
+
+        <EditText
+            android:id="@+id/etEnglishClassJoined"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="English Class Joined"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:enabled="false"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnBackStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:background="@color/design_default_color_error" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,1112 @@
+{
+  "grade1": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Counting",
+        "questions": [
+          {
+            "question": "What number comes after 7?",
+            "options": ["5", "6", "8", "10"],
+            "answer": "8"
+          },
+          {
+            "question": "What number comes before 5?",
+            "options": ["3", "4", "6", "7"],
+            "answer": "4"
+          },
+          {
+            "question": "How many fingers are on one hand?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "5"
+          },
+          {
+            "question": "What number is between 2 and 4?",
+            "options": ["1", "2", "3", "5"],
+            "answer": "3"
+          },
+          {
+            "question": "How many legs does a cat have?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "4"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Addition (Single-Digit)",
+        "questions" : [
+          {
+            "question": "What is 2 + 3?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 1 + 4?",
+            "options": ["3", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 6 + 1?",
+            "options": ["6", "7", "8", "9"],
+            "answer": "7"
+          },
+          {
+            "question": "What is 3 + 2?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 5 + 3?",
+            "options": ["6", "7", "8", "9"],
+            "answer": "8"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Subtraction (Single-Digit)",
+        "questions": [
+          {
+            "question": "What is 5 - 2?",
+            "options": ["3", "2", "1", "4"],
+            "answer": "3"
+          },
+          {
+            "question": "What is 7 - 3?",
+            "options": ["5", "4", "3", "6"],
+            "answer": "4"
+          },
+          {
+            "question": "What is 6 - 1?",
+            "options": ["5", "6", "7", "4"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 8 - 4?",
+            "options": ["5", "3", "4", "6"],
+            "answer": "4"
+          },
+          {
+            "question": "What is 9 - 2?",
+            "options": ["7", "6", "8", "5"],
+            "answer": "7"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Shapes",
+        "questions": [
+          {
+            "question": "What shape has 3 sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Triangle"
+          },
+          {
+            "question": "What shape has 4 equal sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Square"
+          },
+          {
+            "question": "What shape has no corners?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Circle"
+          },
+          {
+            "question": "What shape has 4 sides of different lengths?",
+            "options": ["Square", "Circle", "Triangle", "Rectangle"],
+            "answer": "Rectangle"
+          },
+          {
+            "question": "Which shape looks like a ball?",
+            "options": ["Square", "Rectangle", "Circle", "Triangle"],
+            "answer": "Circle"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Comparing Numbers",
+        "questions": [
+          {
+            "question": "Which number is bigger: 6 or 4?",
+            "options": ["6", "4", "They are equal", "None"],
+            "answer": "6"
+          },
+          {
+            "question": "Which number is smaller: 2 or 5?",
+            "options": ["2", "5", "They are equal", "None"],
+            "answer": "2"
+          },
+          {
+            "question": "Which is the largest: 3, 7, or 5?",
+            "options": ["3", "7", "5", "They are equal"],
+            "answer": "7"
+          },
+          {
+            "question": "Which is smaller: 8 or 9?",
+            "options": ["8", "9", "They are equal", "None"],
+            "answer": "8"
+          },
+          {
+            "question": "Which number is bigger: 10 or 7?",
+            "options": ["10", "7", "They are equal", "None"],
+            "answer": "10"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Simple Word Problems",
+        "questions": [
+          {
+            "question": "If you have 3 apples and you get 2 more, how many apples do you have?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "There are 4 birds on a tree. If 2 fly away, how many are left?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "If you have 10 candies and eat 3, how many candies do you have left?",
+            "options": ["7", "6", "8", "5"],
+            "answer": "7"
+          },
+          {
+            "question": "You see 5 dogs at the park. If 3 dogs leave, how many dogs are still there?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "2"
+          },
+          {
+            "question": "If you have 6 balloons and 2 pop, how many do you have left?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "4"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Telling Time (On the Hour)",
+        "questions": [
+          {
+            "question": "What time is it if the hour hand is on 3 and the minute hand is on 12?",
+            "options": ["3 o'clock", "12 o'clock", "6 o'clock", "9 o'clock"],
+            "answer": "3 o'clock"
+          },
+          {
+            "question": "If the hour hand is on 6 and the minute hand is on 12, what time is it?",
+            "options": ["3 o'clock", "6 o'clock", "12 o'clock", "9 o'clock"],
+            "answer": "6 o'clock"
+          },
+          {
+            "question": "What time is it when both hands point to 12?",
+            "options": ["3 o'clock", "6 o'clock", "12 o'clock", "9 o'clock"],
+            "answer": "12 o'clock"
+          },
+          {
+            "question": "If the hour hand is on 9 and the minute hand is on 12, what time is it?",
+            "options": ["3 o'clock", "9 o'clock", "6 o'clock", "12 o'clock"],
+            "answer": "9 o'clock"
+          },
+          {
+            "question": "When the hour hand is on 1 and the minute hand is on 12, what time is it?",
+            "options": ["1 o'clock", "3 o'clock", "12 o'clock", "6 o'clock"],
+            "answer": "1 o'clock"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Simple Patterns",
+        "questions": [
+          {
+            "question": "What comes next in the pattern: 2, 4, 6, ___?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "8"
+          },
+          {
+            "question": "What comes next in the pattern: 5, 10, 15, ___?",
+            "options": ["18", "20", "22", "25"],
+            "answer": "20"
+          },
+          {
+            "question": "What comes next in the pattern: 1, 3, 5, ___?",
+            "options": ["7", "8", "9", "6"],
+            "answer": "7"
+          },
+          {
+            "question": "What comes next in the pattern: 10, 20, 30, ___?",
+            "options": ["35", "40", "50", "60"],
+            "answer": "40"
+          },
+          {
+            "question": "What comes next in the pattern: 3, 6, 9, ___?",
+            "options": ["10", "11", "12", "15"],
+            "answer": "12"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Position Words (First, Last, Next)",
+        "questions": [
+          {
+            "question": "What is the first color in the rainbow?",
+            "options": ["Green", "Yellow", "Red", "Blue"],
+            "answer": "Red"
+          },
+          {
+            "question": "Which is the last month of the year?",
+            "options": ["October", "November", "December", "September"],
+            "answer": "December"
+          },
+          {
+            "question": "In a race, who is in first place?",
+            "options": ["The last runner", "The first runner", "The middle runner", "The next runner"],
+            "answer": "The first runner"
+          },
+          {
+            "question": "If you are next to your friend, who is in between you?",
+            "options": ["You", "Your friend", "No one", "Someone else"],
+            "answer": "No one"
+          },
+          {
+            "question": "What is the first day of the week?",
+            "options": ["Monday", "Tuesday", "Sunday", "Saturday"],
+            "answer": "Sunday"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Measurement (Length)",
+        "questions": [
+          {
+            "question": "Which is longer: a pencil or a paperclip?",
+            "options": ["Pencil", "Paperclip", "They are the same", "None"],
+            "answer": "Pencil"
+          },
+          {
+            "question": "Which is shorter: a dog or a cat?",
+            "options": ["Dog", "Cat", "They are the same", "None"],
+            "answer": "Cat"
+          },
+          {
+            "question": "Which is longer: a book or a notebook?",
+            "options": ["Book", "Notebook", "They are the same", "None"],
+            "answer": "Book"
+          },
+          {
+            "question": "Which is shorter: a ruler or a pencil?",
+            "options": ["Ruler", "Pencil", "They are the same", "None"],
+            "answer": "Pencil"
+          },
+          {
+            "question": "Which is longer: a straw or a spoon?",
+            "options": ["Straw", "Spoon", "They are the same", "None"],
+            "answer": "Straw"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Addition (Two-Digit)",
+        "questions": [
+          {
+            "question": "What is 10 + 5?",
+            "options": ["12", "13", "14", "15"],
+            "answer": "15"
+          },
+          {
+            "question": "What is 11 + 2?",
+            "options": ["12", "13", "14", "15"],
+            "answer": "13"
+          },
+          {
+            "question": "What is 20 + 3?",
+            "options": ["22", "23", "24", "25"],
+            "answer": "23"
+          },
+          {
+            "question": "What is 15 + 4?",
+            "options": ["18", "19", "20", "21"],
+            "answer": "19"
+          },
+          {
+            "question": "What is 17 + 2?",
+            "options": ["18", "19", "20", "21"],
+            "answer": "19"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Subtraction (Two-Digit)",
+        "questions": [
+          {
+            "question": "What is 12 - 5?",
+            "options": ["6", "5", "7", "8"],
+            "answer": "7"
+          },
+          {
+            "question": "What is 15 - 2?",
+            "options": ["12", "13", "14", "15"],
+            "answer": "13"
+          },
+          {
+            "question": "What is 18 - 3?",
+            "options": ["15", "16", "17", "14"],
+            "answer": "15"
+          },
+          {
+            "question": "What is 20 - 5?",
+            "options": ["14", "15", "16", "17"],
+            "answer": "15"
+          },
+          {
+            "question": "What is 14 - 6?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "8"
+          }
+        ]
+      }
+    }
+  },
+  "grade2": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Addition (Single-Digit)",
+        "questions": [
+          {
+            "question": "What is 4 + 5?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "9"
+          },
+          {
+            "question": "What is 7 + 2?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "9"
+          },
+          {
+            "question": "What is 3 + 6?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "9"
+          },
+          {
+            "question": "What is 1 + 8?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "9"
+          },
+          {
+            "question": "What is 5 + 4?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "9"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Subtraction (Single-Digit)",
+        "questions" : [
+          {
+            "question": "What is 9 - 3?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "6"
+          },
+          {
+            "question": "What is 7 - 2?",
+            "options": ["5", "4", "6", "3"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 5 - 4?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "question": "What is 8 - 3?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 10 - 7?",
+            "options": ["3", "2", "1", "4"],
+            "answer": "3"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Word Problems (Addition)",
+        "questions": [
+          {
+            "question": "If you have 3 oranges and you get 2 more, how many oranges do you have?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "There are 4 birds in a tree, and 3 more join them. How many birds are there now?",
+            "options": ["6", "7", "8", "5"],
+            "answer": "7"
+          },
+          {
+            "question": "If you buy 2 apples and 3 bananas, how many pieces of fruit do you have?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "You see 5 dogs at the park and 2 more arrive. How many dogs are there now?",
+            "options": ["6", "7", "8", "9"],
+            "answer": "7"
+          },
+          {
+            "question": "If you have 6 candies and you buy 4 more, how many candies do you have in total?",
+            "options": ["9", "10", "11", "12"],
+            "answer": "10"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Word Problems (Subtraction)",
+        "questions": [
+          {
+            "question": "If you have 10 balloons and 2 pop, how many balloons do you have left?",
+            "options": ["6", "7", "8", "9"],
+            "answer": "8"
+          },
+          {
+            "question": "You have 7 cookies and eat 3. How many cookies are left?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "4"
+          },
+          {
+            "question": "If there are 8 apples and you give away 4, how many do you have left?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "4"
+          },
+          {
+            "question": "You had 5 toys, and you lost 1. How many toys do you have now?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "4"
+          },
+          {
+            "question": "If you start with 9 crayons and break 3, how many crayons are still whole?",
+            "options": ["6", "5", "7", "8"],
+            "answer": "6"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Multiplication (Introduction)",
+        "questions": [
+          {
+            "question": "What is 2 × 3?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "6"
+          },
+          {
+            "question": "What is 1 × 5?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 3 × 2?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "6"
+          },
+          {
+            "question": "What is 2 × 2?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "4"
+          },
+          {
+            "question": "What is 4 × 1?",
+            "options": ["3", "4", "5", "6"],
+            "answer": "4"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Division (Introduction)",
+        "questions": [
+          {
+            "question": "What is 6 ÷ 2?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "3"
+          },
+          {
+            "question": "What is 8 ÷ 4?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "What is 9 ÷ 3?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "3"
+          },
+          {
+            "question": "What is 10 ÷ 2?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "5"
+          },
+          {
+            "question": "What is 12 ÷ 6?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "2"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Measurement (Length)",
+        "questions": [
+          {
+            "question": "Which is longer: a pencil or a paperclip?",
+            "options": ["Pencil", "Paperclip", "They are the same", "None"],
+            "answer": "Pencil"
+          },
+          {
+            "question": "Which is shorter: a dog or a cat?",
+            "options": ["Dog", "Cat", "They are the same", "None"],
+            "answer": "Cat"
+          },
+          {
+            "question": "Which is longer: a book or a notebook?",
+            "options": ["Book", "Notebook", "They are the same", "None"],
+            "answer": "Book"
+          },
+          {
+            "question": "Which is shorter: a ruler or a pencil?",
+            "options": ["Ruler", "Pencil", "They are the same", "None"],
+            "answer": "Pencil"
+          },
+          {
+            "question": "Which is longer: a straw or a spoon?",
+            "options": ["Straw", "Spoon", "They are the same", "None"],
+            "answer": "Straw"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Geometry (Shapes)",
+        "questions": [
+          {
+            "question": "What shape has 4 equal sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Square"
+          },
+          {
+            "question": "What shape has 3 sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Triangle"
+          },
+          {
+            "question": "What shape has no corners?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Circle"
+          },
+          {
+            "question": "What shape has 4 sides of different lengths?",
+            "options": ["Square", "Circle", "Triangle", "Rectangle"],
+            "answer": "Rectangle"
+          },
+          {
+            "question": "Which shape looks like a ball?",
+            "options": ["Square", "Rectangle", "Circle", "Triangle"],
+            "answer": "Circle"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Counting (Skip Counting)",
+        "questions": [
+          {
+            "question": "What comes next: 2, 4, 6, ___?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "8"
+          },
+          {
+            "question": "What comes next: 5, 10, 15, ___?",
+            "options": ["20", "25", "30", "35"],
+            "answer": "20"
+          },
+          {
+            "question": "What comes next: 1, 2, 3, ___?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "4"
+          },
+          {
+            "question": "What comes next: 10, 20, 30, ___?",
+            "options": ["40", "50", "60", "70"],
+            "answer": "40"
+          },
+          {
+            "question": "What comes next: 3, 6, 9, ___?",
+            "options": ["10", "11", "12", "15"],
+            "answer": "12"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Time (Hours and Half-Hours)",
+        "questions": [
+          {
+            "question": "If the clock shows 2:00, what hour is it?",
+            "options": ["1:00", "2:00", "3:00", "4:00"],
+            "answer": "2:00"
+          },
+          {
+            "question": "If the clock shows 3:30, what time is it?",
+            "options": ["3:00", "3:30", "4:00", "2:30"],
+            "answer": "3:30"
+          },
+          {
+            "question": "If the clock shows 12:00, what hour is it?",
+            "options": ["11:00", "12:00", "1:00", "2:00"],
+            "answer": "12:00"
+          },
+          {
+            "question": "If the clock shows 6:00, what hour is it?",
+            "options": ["5:00", "6:00", "7:00", "8:00"],
+            "answer": "6:00"
+          },
+          {
+            "question": "If the clock shows 1:30, what time is it?",
+            "options": ["1:00", "1:30", "2:00", "3:00"],
+            "answer": "1:30"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Patterns (Colors and Shapes)",
+        "questions": [
+          {
+            "question": "What comes next in the pattern: Red, Blue, Red, Blue, ___?",
+            "options": ["Red", "Blue", "Green", "Yellow"],
+            "answer": "Red"
+          },
+          {
+            "question": "What comes next in the pattern: Circle, Square, Circle, Square, ___?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Circle"
+          },
+          {
+            "question": "What comes next in the pattern: 1, 2, 1, 2, ___?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "question": "What comes next in the pattern: A, B, A, B, ___?",
+            "options": ["A", "B", "C", "D"],
+            "answer": "A"
+          },
+          {
+            "question": "What comes next in the pattern: Red, Yellow, Red, Yellow, ___?",
+            "options": ["Red", "Yellow", "Green", "Blue"],
+            "answer": "Red"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Fractions (Introduction)",
+        "questions": [
+          {
+            "question": "What is half of 2?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "question": "What is half of 4?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "2"
+          },
+          {
+            "question": "What is one quarter of 4?",
+            "options": ["1", "2", "3", "4"],
+            "answer": "1"
+          },
+          {
+            "question": "What is one half of 6?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "3"
+          },
+          {
+            "question": "What is one quarter of 8?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "2"
+          }
+        ]
+      }
+    }
+  },
+  "grade3": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Addition (Two-Digit)",
+        "questions": [
+          {
+            "question": "What is 25 + 36?",
+            "options": ["61", "62", "63", "64"],
+            "answer": "61"
+          },
+          {
+            "question": "What is 47 + 28?",
+            "options": ["65", "66", "67", "68"],
+            "answer": "75"
+          },
+          {
+            "question": "What is 19 + 43?",
+            "options": ["61", "62", "63", "64"],
+            "answer": "62"
+          },
+          {
+            "question": "What is 58 + 22?",
+            "options": ["78", "79", "80", "81"],
+            "answer": "80"
+          },
+          {
+            "question": "What is 34 + 29?",
+            "options": ["61", "62", "63", "64"],
+            "answer": "63"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Subtraction (Two-Digit)",
+        "questions" : [
+          {
+            "question": "What is 84 - 29?",
+            "options": ["55", "56", "57", "58"],
+            "answer": "55"
+          },
+          {
+            "question": "What is 63 - 37?",
+            "options": ["25", "26", "27", "28"],
+            "answer": "26"
+          },
+          {
+            "question": "What is 91 - 44?",
+            "options": ["47", "48", "49", "50"],
+            "answer": "47"
+          },
+          {
+            "question": "What is 72 - 19?",
+            "options": ["51", "52", "53", "54"],
+            "answer": "53"
+          },
+          {
+            "question": "What is 50 - 23?",
+            "options": ["26", "27", "28", "29"],
+            "answer": "27"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Multiplication (Single-Digit)",
+        "questions": [
+          {
+            "question": "What is 6 × 7?",
+            "options": ["36", "42", "48", "54"],
+            "answer": "42"
+          },
+          {
+            "question": "What is 9 × 3?",
+            "options": ["26", "27", "28", "29"],
+            "answer": "27"
+          },
+          {
+            "question": "What is 8 × 4?",
+            "options": ["28", "30", "32", "34"],
+            "answer": "32"
+          },
+          {
+            "question": "What is 5 × 6?",
+            "options": ["28", "30", "32", "34"],
+            "answer": "30"
+          },
+          {
+            "question": "What is 7 × 5?",
+            "options": ["32", "34", "35", "36"],
+            "answer": "35"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Division (Single-Digit)",
+        "questions": [
+          {
+            "question": "What is 36 ÷ 6?",
+            "options": ["4", "5", "6", "7"],
+            "answer": "6"
+          },
+          {
+            "question": "What is 49 ÷ 7?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "7"
+          },
+          {
+            "question": "What is 56 ÷ 8?",
+            "options": ["6", "7", "8", "9"],
+            "answer": "7"
+          },
+          {
+            "question": "What is 81 ÷ 9?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "9"
+          },
+          {
+            "question": "What is 45 ÷ 5?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "9"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Fractions (Introduction)",
+        "questions": [
+          {
+            "question": "What is 1/2 of 8?",
+            "options": ["2", "4", "6", "8"],
+            "answer": "4"
+          },
+          {
+            "question": "What is 1/4 of 12?",
+            "options": ["2", "3", "4", "6"],
+            "answer": "3"
+          },
+          {
+            "question": "What is 3/4 of 16?",
+            "options": ["10", "11", "12", "15"],
+            "answer": "12"
+          },
+          {
+            "question": "What is 1/3 of 9?",
+            "options": ["2", "3", "4", "5"],
+            "answer": "3"
+          },
+          {
+            "question": "What is 2/3 of 18?",
+            "options": ["8", "9", "10", "12"],
+            "answer": "12"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Measurement (Length and Weight)",
+        "questions": [
+          {
+            "question": "Which is longer: 1 meter or 100 centimeters?",
+            "options": ["1 meter", "100 centimeters", "They are the same", "None"],
+            "answer": "They are the same"
+          },
+          {
+            "question": "Which is heavier: 1 kilogram or 1000 grams?",
+            "options": ["1 kilogram", "1000 grams", "They are the same", "None"],
+            "answer": "They are the same"
+          },
+          {
+            "question": "What is longer: a yard or a meter?",
+            "options": ["Yard", "Meter", "They are the same", "None"],
+            "answer": "Yard"
+          },
+          {
+            "question": "What is heavier: 500 grams or 1 pound?",
+            "options": ["500 grams", "1 pound", "They are the same", "None"],
+            "answer": "1 pound"
+          },
+          {
+            "question": "What is 100 centimeters in meters?",
+            "options": ["0.5 meters", "1 meter", "2 meters", "3 meters"],
+            "answer": "1 meter"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Geometry (Shapes)",
+        "questions": [
+          {
+            "question": "What shape has 4 sides of equal length?",
+            "options": ["Square", "Rectangle", "Triangle", "Circle"],
+            "answer": "Square"
+          },
+          {
+            "question": "What shape has 3 sides?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Triangle"
+          },
+          {
+            "question": "What shape has no corners?",
+            "options": ["Square", "Triangle", "Rectangle", "Circle"],
+            "answer": "Circle"
+          },
+          {
+            "question": "What shape has 4 sides but is not equal?",
+            "options": ["Square", "Rectangle", "Triangle", "Circle"],
+            "answer": "Rectangle"
+          },
+          {
+            "question": "Which of the following is a polygon?",
+            "options": ["Circle", "Triangle", "Ellipse", "All of the above"],
+            "answer": "Triangle"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Time (Telling Time to the Nearest 5 Minutes)",
+        "questions": [
+          {
+            "question": "If the clock shows 3:00, what time is it?",
+            "options": ["3:00", "3:05", "3:10", "3:15"],
+            "answer": "3:00"
+          },
+          {
+            "question": "If the clock shows 4:30, what time is it?",
+            "options": ["4:00", "4:15", "4:30", "4:45"],
+            "answer": "4:30"
+          },
+          {
+            "question": "If the clock shows 6:15, what time is it?",
+            "options": ["6:00", "6:15", "6:30", "6:45"],
+            "answer": "6:15"
+          },
+          {
+            "question": "If the clock shows 12:00, what time is it?",
+            "options": ["11:00", "12:00", "1:00", "2:00"],
+            "answer": "12:00"
+          },
+          {
+            "question": "If the clock shows 5:45, what time is it?",
+            "options": ["5:30", "5:45", "6:00", "6:15"],
+            "answer": "5:45"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Patterns (Number and Shape Patterns)",
+        "questions": [
+          {
+            "question": "What comes next in the pattern: 2, 4, 6, ___?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "8"
+          },
+          {
+            "question": "What comes next in the pattern: Red, Blue, Red, Blue, ___?",
+            "options": ["Red", "Blue", "Green", "Yellow"],
+            "answer": "Red"
+          },
+          {
+            "question": "What comes next in the pattern: Circle, Square, Circle, ___?",
+            "options": ["Circle", "Square", "Triangle", "Rectangle"],
+            "answer": "Square"
+          },
+          {
+            "question": "What comes next in the pattern: 5, 10, 15, ___?",
+            "options": ["20", "25", "30", "35"],
+            "answer": "20"
+          },
+          {
+            "question": "What comes next in the pattern: A, B, A, B, ___?",
+            "options": ["A", "B", "C", "D"],
+            "answer": "A"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Estimation (Rounding Numbers)",
+        "questions": [
+          {
+            "question": "Round 36 to the nearest ten.",
+            "options": ["30", "35", "40", "45"],
+            "answer": "40"
+          },
+          {
+            "question": "Round 78 to the nearest ten.",
+            "options": ["70", "75", "80", "85"],
+            "answer": "80"
+          },
+          {
+            "question": "Round 42 to the nearest ten.",
+            "options": ["40", "45", "50", "55"],
+            "answer": "40"
+          },
+          {
+            "question": "Round 29 to the nearest ten.",
+            "options": ["20", "25", "30", "35"],
+            "answer": "30"
+          },
+          {
+            "question": "Round 64 to the nearest ten.",
+            "options": ["60", "65", "70", "75"],
+            "answer": "60"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Division with Remainders",
+        "questions": [
+          {
+            "question": "What is 13 ÷ 4?",
+            "options": ["2 R1", "3 R1", "3 R2", "4 R1"],
+            "answer": "3 R1"
+          },
+          {
+            "question": "What is 17 ÷ 5?",
+            "options": ["2 R2", "3 R2", "3 R3", "4 R2"],
+            "answer": "3 R2"
+          },
+          {
+            "question": "What is 20 ÷ 3?",
+            "options": ["6 R1", "6 R2", "7 R1", "7 R2"],
+            "answer": "6 R2"
+          },
+          {
+            "question": "What is 15 ÷ 6?",
+            "options": ["2 R3", "2 R4", "3 R2", "3 R3"],
+            "answer": "2 R3"
+          },
+          {
+            "question": "What is 14 ÷ 5?",
+            "options": ["2 R4", "3 R2", "3 R3", "4 R1"],
+            "answer": "2 R4"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Word Problems (Addition and Subtraction)",
+        "questions": [
+          {
+            "question": "Sarah has 5 apples and buys 3 more. How many does she have now?",
+            "options": ["7", "8", "9", "10"],
+            "answer": "8"
+          },
+          {
+            "question": "Tom had 10 candies and gave away 4. How many does he have left?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "6"
+          },
+          {
+            "question": "If there are 15 birds on a tree and 5 fly away, how many are left?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "10"
+          },
+          {
+            "question": "Emma has 12 crayons and loses 3. How many does she have now?",
+            "options": ["8", "9", "10", "11"],
+            "answer": "9"
+          },
+          {
+            "question": "If there are 20 students in a class and 5 leave, how many are left?",
+            "options": ["15", "16", "17", "18"],
+            "answer": "15"
+          }
+        ]
+      }
+    }
+  }
+}

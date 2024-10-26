@@ -1,0 +1,1112 @@
+{
+  "grade1": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Choose the correct answer.",
+        "questions": [
+          {
+            "question": "What word rhymes with the word “man”?",
+            "options": ["Clan", "Root", "Net", "Ball"],
+            "answer": "Clan"
+          },
+          {
+            "question": "What word rhymes with the word “red”?",
+            "options": ["Ball", "Bed", "Boom", "Tress"],
+            "answer": "Bed"
+          },
+          {
+            "question": "What word rhymes with the word “car”?",
+            "options": ["Tress", "Paper", "Bar", "Hair"],
+            "answer": "Bar"
+          },
+          {
+            "question": "What word rhymes with the word “chair”?",
+            "options": ["Hair", "Hat", "Mat", "Toy"],
+            "answer": "Hair"
+          },
+          {
+            "question": "What word rhymes with the word “grass”?",
+            "options": ["Toy", "Class", "Flower", "Clan"],
+            "answer": "Class"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Choose whether the statement is asking, telling, shouting, or crying.",
+        "questions" : [
+          {
+            "question": "My brother went to school.",
+            "options": ["Telling", "Asking", "Shouting", "Crying"],
+            "answer": "Telling"
+          },
+          {
+            "question": "What word rhymes with the word “red”?",
+            "options": ["Telling", "Asking", "Shouting", "Crying"],
+            "answer": "Telling"
+          },
+          {
+            "question": "What word rhymes with the word “car”?",
+            "options": ["Telling", "Asking", "Shouting", "Crying"],
+            "answer": "Asking"
+          },
+          {
+            "question": "What word rhymes with the word “chair”?",
+            "options": ["Telling", "Asking", "Shouting", "Crying"],
+            "answer": "Asking"
+          },
+          {
+            "question": "What word rhymes with the word “grass”?",
+            "options": ["Telling", "Asking", "Shouting", "Crying"],
+            "answer": "Asking"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Complete the sentences below and choose the correct answer.",
+        "questions": [
+          {
+            "question": "Hello! My name is __________.",
+            "options": ["Butterfly", "Taylor", "Yellow", "Milk"],
+            "answer": "Taylor"
+          },
+          {
+            "question": "I am _________ years old.",
+            "options": ["Seven", "Milk", "Bike", "Climb"],
+            "answer": "Seven"
+          },
+          {
+            "question": "I like to ________ puzzle.",
+            "options": ["Climb", "Paper", "Play", "Pencil"],
+            "answer": "Play"
+          },
+          {
+            "question": "My favorite subject is _________.",
+            "options": ["Pencil", "Notebook", "Mathematics", "Brothers"],
+            "answer": "Mathematics"
+          },
+          {
+            "question": "I have two _________. We are five in the family.",
+            "options": ["Brothers", "Cookies", "Shoes", "Yellow"],
+            "answer": "Brothers"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Choose the words that shows action.",
+        "questions": [
+          {
+            "question": "What word shows action?",
+            "options": ["Read", "Television", "Blackboard", "Cellphone"],
+            "answer": "Read"
+          },
+          {
+            "question": "What word shows action?",
+            "options": ["Cellphone", "Chips", "Clean", "Computer"],
+            "answer": "Clean"
+          },
+          {
+            "question": "What word shows action?",
+            "options": ["Computer", "Fan", "Watch", "Hair"],
+            "answer": "Watch"
+          },
+          {
+            "question": "What word shows action?",
+            "options": ["Glass", "Drink", "Mirror", "Toy"],
+            "answer": "Drink"
+          },
+          {
+            "question": "What word shows action?",
+            "options": ["Toy", "Plate", "Run", "Vase"],
+            "answer": "Run"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Choose the action words/verbs used in the following sentences.",
+        "questions": [
+          {
+            "question": "The dog barks loudly.",
+            "options": ["Barks", "Dog", "Loudly", "The"],
+            "answer": "Barks"
+          },
+          {
+            "question": "We plant flowers in the garden.",
+            "options": ["Plant", "Flowers", "Garden", "We"],
+            "answer": "Plant"
+          },
+          {
+            "question": "They climb trees in the forest.",
+            "options": ["Forest", "Climb", "Tress", "They"],
+            "answer": "Climb"
+          },
+          {
+            "question": "I read a book quietly.",
+            "options": ["Quietly", "Book", "Read", "I"],
+            "answer": "Read"
+          },
+          {
+            "question": "Two girls ride their bikes in the park.",
+            "options": ["Two", "Ride", "Bikes", "Their"],
+            "answer": "Ride"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Choose the adjective used in the following sentences.",
+        "questions": [
+          {
+            "question": "The little boy was crying.",
+            "options": ["The", "Boy", "Little", "Was"],
+            "answer": "Little"
+          },
+          {
+            "question": "The tall tree provides shade in the park.",
+            "options": ["Tall", "Provides", "Park", "Tree"],
+            "answer": "Tall"
+          },
+          {
+            "question": "The fast car rides down the road.",
+            "options": ["Rides", "Car", "Fast", "Down"],
+            "answer": "Fast"
+          },
+          {
+            "question": "He has a red bicycle.",
+            "options": ["Bicycle", "Red", "Has", "He"],
+            "answer": "Red"
+          },
+          {
+            "question": "They eat delicious cake at the birthday party.",
+            "options": ["They", "Cake", "Delicious", "The"],
+            "answer": "Delicious"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Choose the adjective that best describes the following nouns.",
+        "questions": [
+          {
+            "question": "Knife",
+            "options": ["Sharp", "Salty", "Hard", "Sweet"],
+            "answer": "Sharp"
+          },
+          {
+            "question": "Popcorn",
+            "options": ["Sharp", "Salty", "Hard", "Sweet"],
+            "answer": "Salty"
+          },
+          {
+            "question": "Rock",
+            "options": ["Sharp", "Salty", "Hard", "Sweet"],
+            "answer": "Hard"
+          },
+          {
+            "question": "Candies",
+            "options": ["Sharp", "Salty", "Hard", "Sweet"],
+            "answer": "Sweet"
+          },
+          {
+            "question": "Pillow",
+            "options": ["Sharp", "Salty", "Soft", "Sweet"],
+            "answer": "Soft"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Basic Vocabulary",
+        "questions": [
+          {
+            "question": "Which one is a fruit?",
+            "options": ["Car", "Apple", "Dog", "Chair"],
+            "answer": "Apple"
+          },
+          {
+            "question": "What is the color of the sky?",
+            "options": ["Red", "Blue", "Yellow", "Green"],
+            "answer": "Blue"
+          },
+          {
+            "question": "Which one is used to write?",
+            "options": ["Ball", "Pen", "Cat", "Book"],
+            "answer": "Pen"
+          },
+          {
+            "question": "What is something you wear on your feet?",
+            "options": ["Hat", "Shoe", "Book", "Spoon"],
+            "answer": "Shoe"
+          },
+          {
+            "question": "Which animal says 'meow'?",
+            "options": ["Dog", "Bird", "Cat", "Fish"],
+            "answer": "Cat"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Alphabet and Letters",
+        "questions": [
+          {
+            "question": "What letter comes after 'A'?",
+            "options": ["B", "C", "D", "E"],
+            "answer": "B"
+          },
+          {
+            "question": "Which letter starts the word 'apple'?",
+            "options": ["B", "A", "C", "D"],
+            "answer": "A"
+          },
+          {
+            "question": "Which letter comes before 'M'?",
+            "options": ["L", "N", "K", "O"],
+            "answer": "L"
+          },
+          {
+            "question": "What letter is at the beginning of the word 'dog'?",
+            "options": ["C", "D", "E", "F"],
+            "answer": "D"
+          },
+          {
+            "question": "What letter comes after 'X'?",
+            "options": ["Y", "Z", "A", "W"],
+            "answer": "Y"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Opposites",
+        "questions": [
+          {
+            "question": "The opposite of 'big' is:",
+            "options": ["Large", "Small", "Tall", "Heavy"],
+            "answer": "Small"
+          },
+          {
+            "question": "The opposite of 'hot' is:",
+            "options": ["Warm", "Cold", "Wet", "Dry"],
+            "answer": "Cold"
+          },
+          {
+            "question": "The opposite of 'day' is:",
+            "options": ["Morning", "Evening", "Night", "Noon"],
+            "answer": "Night"
+          },
+          {
+            "question": "The opposite of 'happy' is:",
+            "options": ["Glad", "Joyful", "Sad", "Cheerful"],
+            "answer": "Sad"
+          },
+          {
+            "question": "The opposite of 'fast' is:",
+            "options": ["Quick", "Slow", "Swift", "Speedy"],
+            "answer": "Slow"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Colors and Shapes",
+        "questions": [
+          {
+            "question": "What color is a stop sign?",
+            "options": ["Red", "Green", "Yellow", "Blue"],
+            "answer": "Red"
+          },
+          {
+            "question": "What shape is a ball?",
+            "options": ["Square", "Rectangle", "Circle", "Triangle"],
+            "answer": "Circle"
+          },
+          {
+            "question": "Which shape has three sides?",
+            "options": ["Circle", "Rectangle", "Triangle", "Square"],
+            "answer": "Triangle"
+          },
+          {
+            "question": "What color is grass?",
+            "options": ["Blue", "Yellow", "Red", "Green"],
+            "answer": "Green"
+          },
+          {
+            "question": "What shape has four equal sides?",
+            "options": ["Circle", "Triangle", "Square", "Oval"],
+            "answer": "Square"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Animals and Their Sounds",
+        "questions": [
+          {
+            "question": "What animal says 'woof'?",
+            "options": ["Cat", "Dog", "Cow", "Horse"],
+            "answer": "Dog"
+          },
+          {
+            "question": "What animal says 'quack'?",
+            "options": ["Chicken", "Duck", "Pig", "Goat"],
+            "answer": "Duck"
+          },
+          {
+            "question": "What animal says 'moo'?",
+            "options": ["Pig", "Horse", "Cow", "Dog"],
+            "answer": "Cow"
+          },
+          {
+            "question": "What animal says 'neigh'?",
+            "options": ["Dog", "Cat", "Bird", "Horse"],
+            "answer": "Horse"
+          },
+          {
+            "question": "What animal says 'oink'?",
+            "options": ["Dog", "Pig", "Cow", "Duck"],
+            "answer": "Pig"
+          }
+        ]
+      }
+    }
+  },
+  "grade2": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Basic Vocabulary",
+        "questions": [
+          {
+            "question": "Which one is a type of fruit?",
+            "options": ["Chair", "Orange", "Desk", "Toy"],
+            "answer": "Orange"
+          },
+          {
+            "question": "Which word means a place to live?",
+            "options": ["Dog", "Pencil", "House", "Cloud"],
+            "answer": "House"
+          },
+          {
+            "question": "Which of these is a color?",
+            "options": ["Pink", "Sun", "Flower", "Tree"],
+            "answer": "Pink"
+          },
+          {
+            "question": "What is something you use to write?",
+            "options": ["Table", "Pen", "Book", "Bag"],
+            "answer": "Pen"
+          },
+          {
+            "question": "Which one is a body part?",
+            "options": ["Chair", "Car", "Foot", "Window"],
+            "answer": "Foot"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Grammar (Nouns and Verbs)",
+        "questions" : [
+          {
+            "question": "Which word is a noun?",
+            "options": ["Run", "Table", "Sing", "Jump"],
+            "answer": "Table"
+          },
+          {
+            "question": "Which word is a verb?",
+            "options": ["Apple", "Dance", "Tree", "Flower"],
+            "answer": "Dance"
+          },
+          {
+            "question": "Which word is an action word?",
+            "options": ["Run", "House", "Tree", "Sky"],
+            "answer": "Run"
+          },
+          {
+            "question": "What is the noun in this sentence: 'The cat sleeps.'",
+            "options": ["Cat", "Sleeps", "Is", "The"],
+            "answer": "Cat"
+          },
+          {
+            "question": "What is the verb in this sentence: 'Birds fly.'",
+            "options": ["Birds", "Fly", "Are", "And"],
+            "answer": "Fly"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Synonyms and Antonyms",
+        "questions": [
+          {
+            "question": "What is a synonym for 'happy'?",
+            "options": ["Sad", "Excited", "Joyful", "Angry"],
+            "answer": "Joyful"
+          },
+          {
+            "question": "What is an antonym for 'hot'?",
+            "options": ["Warm", "Cool", "Cold", "Boiling"],
+            "answer": "Cold"
+          },
+          {
+            "question": "What is a synonym for 'big'?",
+            "options": ["Small", "Tiny", "Large", "Little"],
+            "answer": "Large"
+          },
+          {
+            "question": "What is an antonym for 'fast'?",
+            "options": ["Quick", "Speedy", "Slow", "Swift"],
+            "answer": "Slow"
+          },
+          {
+            "question": "What is a synonym for 'easy'?",
+            "options": ["Hard", "Simple", "Difficult", "Tricky"],
+            "answer": "Simple"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Sentence Structure",
+        "questions": [
+          {
+            "question": "Which word should start a sentence?",
+            "options": ["the", "cat", "A", "dog"],
+            "answer": "A"
+          },
+          {
+            "question": "What punctuation goes at the end of a question?",
+            "options": ["!", ".", ",", "?"],
+            "answer": "?"
+          },
+          {
+            "question": "Which word completes this sentence: 'She ___ to school.'",
+            "options": ["walk", "walks", "walking", "walked"],
+            "answer": "walks"
+          },
+          {
+            "question": "What is the subject in this sentence: 'The dog barks.'",
+            "options": ["Dog", "Barks", "The", "And"],
+            "answer": "Dog"
+          },
+          {
+            "question": "What is the correct sentence structure?",
+            "options": ["She school to goes", "To school she goes", "She goes to school", "School to she goes"],
+            "answer": "She goes to school"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Reading Comprehension",
+        "questions": [
+          {
+            "question": "In the story 'The Little Red Hen,' who makes the bread?",
+            "options": ["The Cat", "The Dog", "The Little Red Hen", "The Cow"],
+            "answer": "The Little Red Hen"
+          },
+          {
+            "question": "If you read about a 'sunny day,' what kind of weather is it?",
+            "options": ["Rainy", "Cloudy", "Windy", "Sunny"],
+            "answer": "Sunny"
+          },
+          {
+            "question": "In the story 'Goldilocks,' who lives in the house?",
+            "options": ["Three Bears", "Three Wolves", "Three Pigs", "Three Birds"],
+            "answer": "Three Bears"
+          },
+          {
+            "question": "What might a story about the ocean describe?",
+            "options": ["Mountains", "Trees", "Fish", "Sand"],
+            "answer": "Fish"
+          },
+          {
+            "question": "In 'The Tortoise and the Hare,' who wins the race?",
+            "options": ["The Tortoise", "The Hare", "The Bird", "The Fish"],
+            "answer": "The Tortoise"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Spelling",
+        "questions": [
+          {
+            "question": "Which of these is spelled correctly?",
+            "options": ["Skwool", "School", "Scool", "Schol"],
+            "answer": "School"
+          },
+          {
+            "question": "Which is the correct spelling for something you drink?",
+            "options": ["Watr", "Watir", "Water", "Wotur"],
+            "answer": "Water"
+          },
+          {
+            "question": "How do you spell the word for a place with books?",
+            "options": ["Library", "Libary", "Libarye", "Liberry"],
+            "answer": "Library"
+          },
+          {
+            "question": "Which spelling is correct for the word 'bicycle'?",
+            "options": ["Bysycle", "Bicycle", "Bicicle", "Bycicle"],
+            "answer": "Bicycle"
+          },
+          {
+            "question": "What is the correct spelling of the word for a type of fruit?",
+            "options": ["Banana", "Bannana", "Bananae", "Banene"],
+            "answer": "Banana"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Pronouns",
+        "questions": [
+          {
+            "question": "Which word can replace 'Tom' in the sentence 'Tom plays soccer'?",
+            "options": ["She", "They", "It", "He"],
+            "answer": "He"
+          },
+          {
+            "question": "What is the correct pronoun for 'Sarah and I'?",
+            "options": ["Us", "We", "They", "Hers"],
+            "answer": "We"
+          },
+          {
+            "question": "Which word is a pronoun?",
+            "options": ["Book", "Him", "Tree", "Jump"],
+            "answer": "Him"
+          },
+          {
+            "question": "Choose the correct pronoun to replace 'The dog':",
+            "options": ["It", "Her", "Them", "You"],
+            "answer": "It"
+          },
+          {
+            "question": "What pronoun would you use for a group of girls?",
+            "options": ["She", "They", "It", "We"],
+            "answer": "They"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Adjectives",
+        "questions": [
+          {
+            "question": "Which word describes a noun?",
+            "options": ["Run", "Bright", "Jump", "Play"],
+            "answer": "Bright"
+          },
+          {
+            "question": "In 'the tall tree,' which word is the adjective?",
+            "options": ["Tree", "Tall", "The", "Is"],
+            "answer": "Tall"
+          },
+          {
+            "question": "What word describes the color of an apple?",
+            "options": ["Red", "Eat", "Apple", "Fruit"],
+            "answer": "Red"
+          },
+          {
+            "question": "Which of these is an adjective?",
+            "options": ["Dog", "Quick", "Sing", "Slowly"],
+            "answer": "Quick"
+          },
+          {
+            "question": "In 'a big house,' what word describes the house?",
+            "options": ["Big", "House", "The", "On"],
+            "answer": "Big"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Compound Words",
+        "questions": [
+          {
+            "question": "What do you get when you put 'sun' and 'flower' together?",
+            "options": ["Sunfly", "Sunflower", "Sunshine", "Flowerpot"],
+            "answer": "Sunflower"
+          },
+          {
+            "question": "What compound word is made from 'rain' and 'bow'?",
+            "options": ["Rainbow", "Rainshower", "Bowtie", "Rainwater"],
+            "answer": "Rainbow"
+          },
+          {
+            "question": "Which two words make up 'toothbrush'?",
+            "options": ["Tooth and brush", "Tooth and paste", "Brush and paste", "Teeth and brush"],
+            "answer": "Tooth and brush"
+          },
+          {
+            "question": "Which compound word comes from 'snow' and 'man'?",
+            "options": ["Snowball", "Snowfall", "Snowman", "Snowflake"],
+            "answer": "Snowman"
+          },
+          {
+            "question": "What do you get when you put 'basket' and 'ball' together?",
+            "options": ["Basketcase", "Ballgame", "Basketball", "Basketballer"],
+            "answer": "Basketball"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Homophones",
+        "questions": [
+          {
+            "question": "Which of these means a type of 'animal' and sounds like 'bare'?",
+            "options": ["Bare", "Bear", "Beer", "Bore"],
+            "answer": "Bear"
+          },
+          {
+            "question": "Which of these sounds like 'two' but means 'also'?",
+            "options": ["Too", "Two", "To", "Toe"],
+            "answer": "Too"
+          },
+          {
+            "question": "Which word sounds like 'flower' and means baking ingredient?",
+            "options": ["Flour", "Flower", "Floor", "Flier"],
+            "answer": "Flour"
+          },
+          {
+            "question": "Which word means 'past tense of know' and sounds like 'new'?",
+            "options": ["Knew", "New", "No", "Knee"],
+            "answer": "Knew"
+          },
+          {
+            "question": "Which word sounds like 'sea' and means to look?",
+            "options": ["See", "Sea", "She", "Sew"],
+            "answer": "See"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Punctuation",
+        "questions": [
+          {
+            "question": "Which punctuation mark goes at the end of a question?",
+            "options": ["Period", "Comma", "Question mark", "Exclamation point"],
+            "answer": "Question mark"
+          },
+          {
+            "question": "What do you put at the end of a sentence that is exciting?",
+            "options": ["Period", "Comma", "Exclamation point", "Question mark"],
+            "answer": "Exclamation point"
+          },
+          {
+            "question": "What do you use to separate items in a list?",
+            "options": ["Period", "Comma", "Colon", "Question mark"],
+            "answer": "Comma"
+          },
+          {
+            "question": "What punctuation do you put at the end of a normal sentence?",
+            "options": ["Period", "Exclamation point", "Comma", "Question mark"],
+            "answer": "Period"
+          },
+          {
+            "question": "What punctuation mark shows someone is speaking?",
+            "options": ["Quotation marks", "Comma", "Colon", "Exclamation point"],
+            "answer": "Quotation marks"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Parts of Speech",
+        "questions": [
+          {
+            "question": "What part of speech is 'run'?",
+            "options": ["Noun", "Adjective", "Verb", "Pronoun"],
+            "answer": "Verb"
+          },
+          {
+            "question": "What part of speech is 'happy'?",
+            "options": ["Noun", "Adjective", "Verb", "Pronoun"],
+            "answer": "Adjective"
+          },
+          {
+            "question": "Which part of speech is 'she'?",
+            "options": ["Noun", "Verb", "Adverb", "Pronoun"],
+            "answer": "Pronoun"
+          },
+          {
+            "question": "What part of speech is 'quickly'?",
+            "options": ["Verb", "Adverb", "Adjective", "Pronoun"],
+            "answer": "Adverb"
+          },
+          {
+            "question": "Which part of speech is 'book'?",
+            "options": ["Verb", "Noun", "Adjective", "Pronoun"],
+            "answer": "Noun"
+          }
+        ]
+      }
+    }
+  },
+  "grade3": {
+    "quarter1": {
+      "week1": {
+        "instructions": "Reading Comprehension (Short Passages)",
+        "questions": [
+          {
+            "question": "In the story, 'The Cat and the Mouse,' who was chasing the mouse?",
+            "options": ["Dog", "Bird", "Cat", "Fish"],
+            "answer": "Cat"
+          },
+          {
+            "question": "In the story 'The Boy Who Cried Wolf,' what animal did the boy lie about?",
+            "options": ["Wolf", "Fox", "Lion", "Bear"],
+            "answer": "Wolf"
+          },
+          {
+            "question": "If the story says 'The tree is tall and green,' what color is the tree?",
+            "options": ["Red", "Yellow", "Blue", "Green"],
+            "answer": "Green"
+          },
+          {
+            "question": "In 'Little Red Riding Hood,' who is trying to trick her?",
+            "options": ["A fox", "A wolf", "A bear", "A lion"],
+            "answer": "A wolf"
+          },
+          {
+            "question": "In the story 'Jack and the Beanstalk,' what grows very tall?",
+            "options": ["A flower", "A tree", "A beanstalk", "A vine"],
+            "answer": "A beanstalk"
+          }
+        ]
+      },
+      "week2": {
+        "instructions": "Vocabulary",
+        "questions" : [
+          {
+            "question": "Which word means 'to gather crops from a field'?",
+            "options": ["Plant", "Water", "Harvest", "Grow"],
+            "answer": "Harvest"
+          },
+          {
+            "question": "What is the meaning of 'ancient'?",
+            "options": ["New", "Old", "Middle", "Young"],
+            "answer": "Old"
+          },
+          {
+            "question": "Which word means 'to leave'?",
+            "options": ["Exit", "Enter", "Stay", "Approach"],
+            "answer": "Exit"
+          },
+          {
+            "question": "What is another word for 'enormous'?",
+            "options": ["Tiny", "Huge", "Little", "Small"],
+            "answer": "Huge"
+          },
+          {
+            "question": "Which word means 'a journey by ship'?",
+            "options": ["Flight", "Road trip", "Voyage", "Drive"],
+            "answer": "Voyage"
+          }
+        ]
+      },
+      "week3": {
+        "instructions":"Synonyms and Antonyms",
+        "questions": [
+          {
+            "question": "What is a synonym for 'brave'?",
+            "options": ["Cowardly", "Fearless", "Timid", "Afraid"],
+            "answer": "Fearless"
+          },
+          {
+            "question": "What is an antonym for 'sharp'?",
+            "options": ["Dull", "Bright", "Quick", "Strong"],
+            "answer": "Dull"
+          },
+          {
+            "question": "What is a synonym for 'calm'?",
+            "options": ["Quiet", "Loud", "Angry", "Excited"],
+            "answer": "Quiet"
+          },
+          {
+            "question": "What is an antonym for 'fast'?",
+            "options": ["Quick", "Slow", "Rapid", "Swift"],
+            "answer": "Slow"
+          },
+          {
+            "question": "What is a synonym for 'beautiful'?",
+            "options": ["Ugly", "Pretty", "Dull", "Plain"],
+            "answer": "Pretty"
+          }
+        ]
+      }
+    },
+    "quarter2": {
+      "week1": {
+        "instruction": "Grammar (Nouns, Verbs, and Adjectives)",
+        "questions": [
+          {
+            "question": "Which of these is a noun?",
+            "options": ["Run", "Book", "Quickly", "Big"],
+            "answer": "Book"
+          },
+          {
+            "question": "Which of these is a verb?",
+            "options": ["Jump", "Cloud", "Tall", "Fast"],
+            "answer": "Jump"
+          },
+          {
+            "question": "Which word is an adjective in the sentence 'The tall tree sways.'?",
+            "options": ["The", "Tree", "Tall", "Sways"],
+            "answer": "Tall"
+          },
+          {
+            "question": "Which part of speech is 'he'?",
+            "options": ["Noun", "Verb", "Adjective", "Pronoun"],
+            "answer": "Pronoun"
+          },
+          {
+            "question": "What part of speech is 'quickly'?",
+            "options": ["Adverb", "Noun", "Verb", "Adjective"],
+            "answer": "Adverb"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Pronouns",
+        "questions": [
+          {
+            "question": "What is the correct pronoun for 'Anna and I'?",
+            "options": ["He", "She", "They", "We"],
+            "answer": "We"
+          },
+          {
+            "question": "Choose the correct pronoun for 'The students' in '___ are reading books.'",
+            "options": ["He", "She", "They", "It"],
+            "answer": "They"
+          },
+          {
+            "question": "What pronoun would replace 'the dog'?",
+            "options": ["They", "She", "He", "It"],
+            "answer": "It"
+          },
+          {
+            "question": "Which pronoun would you use for a group of boys?",
+            "options": ["They", "She", "It", "We"],
+            "answer": "They"
+          },
+          {
+            "question": "What is the correct pronoun for 'Sarah'?",
+            "options": ["He", "They", "She", "We"],
+            "answer": "She"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Homophones",
+        "questions": [
+          {
+            "question": "Which word sounds like 'blue' and means the past tense of 'blow'?",
+            "options": ["Blew", "Blue", "Blow", "Bloo"],
+            "answer": "Blew"
+          },
+          {
+            "question": "What is a homophone for 'son'?",
+            "options": ["Sun", "Soon", "Sin", "Seen"],
+            "answer": "Sun"
+          },
+          {
+            "question": "Which word sounds like 'pair' and means two of something?",
+            "options": ["Pare", "Pear", "Pair", "Peer"],
+            "answer": "Pair"
+          },
+          {
+            "question": "Which word sounds like 'flower' and means baking ingredient?",
+            "options": ["Flour", "Flower", "Flew", "Floor"],
+            "answer": "Flour"
+          },
+          {
+            "question": "What is a homophone for 'sea'?",
+            "options": ["See", "Sees", "Sew", "C"],
+            "answer": "See"
+          }
+        ]
+      }
+    },
+    "quarter3": {
+      "week1": {
+        "instruction": "Punctuation",
+        "questions": [
+          {
+            "question": "What punctuation goes at the end of an exclamation?",
+            "options": ["Period", "Question mark", "Exclamation point", "Comma"],
+            "answer": "Exclamation point"
+          },
+          {
+            "question": "What punctuation is used to show someone is speaking?",
+            "options": ["Question mark", "Comma", "Quotation marks", "Period"],
+            "answer": "Quotation marks"
+          },
+          {
+            "question": "What punctuation mark goes at the end of a question?",
+            "options": ["Period", "Question mark", "Comma", "Exclamation point"],
+            "answer": "Question mark"
+          },
+          {
+            "question": "What is used to separate items in a list?",
+            "options": ["Period", "Colon", "Comma", "Exclamation point"],
+            "answer": "Comma"
+          },
+          {
+            "question": "What punctuation ends a regular sentence?",
+            "options": ["Period", "Question mark", "Comma", "Exclamation point"],
+            "answer": "Period"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Adjectives and Adverbs",
+        "questions": [
+          {
+            "question": "What word is the adjective in 'The fast car'?",
+            "options": ["Fast", "Car", "The", "Is"],
+            "answer": "Fast"
+          },
+          {
+            "question": "What is the adverb in 'She sings beautifully'?",
+            "options": ["Sings", "She", "Beautifully", "Song"],
+            "answer": "Beautifully"
+          },
+          {
+            "question": "Which word describes 'run' in 'Run quickly'?",
+            "options": ["Run", "Quickly", "And", "Slow"],
+            "answer": "Quickly"
+          },
+          {
+            "question": "What is the adjective in 'The green apple is fresh'?",
+            "options": ["Green", "Apple", "Is", "Fresh"],
+            "answer": "Green"
+          },
+          {
+            "question": "Which word is the adverb in 'He speaks loudly'?",
+            "options": ["Speaks", "He", "Loudly", "Softly"],
+            "answer": "Loudly"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Compound Words",
+        "questions": [
+          {
+            "question": "What is a compound word for 'snow' and 'ball'?",
+            "options": ["Snowfall", "Snowball", "Snowing", "Ballsnow"],
+            "answer": "Snowball"
+          },
+          {
+            "question": "What is a compound word from 'sun' and 'flower'?",
+            "options": ["Sunrise", "Sunset", "Sunflower", "Flowerpot"],
+            "answer": "Sunflower"
+          },
+          {
+            "question": "Which word combines 'basket' and 'ball'?",
+            "options": ["Basketcase", "Ballgame", "Basketball", "Basket"],
+            "answer": "Basketball"
+          },
+          {
+            "question": "Which two words make up 'toothbrush'?",
+            "options": ["Tooth and brush", "Tooth and paste", "Tooth and brush", "Brush and teeth"],
+            "answer": "Tooth and brush"
+          },
+          {
+            "question": "What compound word is made from 'rain' and 'coat'?",
+            "options": ["Rainbow", "Raincoat", "Rainfall", "Raindrop"],
+            "answer": "Raincoat"
+          }
+        ]
+      }
+    },
+    "quarter4": {
+      "week1": {
+        "instruction": "Contractions",
+        "questions": [
+          {
+            "question": "What does 'don't' stand for?",
+            "options": ["Do not", "Does not", "Did not", "Do no"],
+            "answer": "Do not"
+          },
+          {
+            "question": "What is the contraction for 'I am'?",
+            "options": ["Ive", "Im", "I’am", "I'm"],
+            "answer": "I'm"
+          },
+          {
+            "question": "What is 'she's' short for?",
+            "options": ["She is", "She are", "She has", "She be"],
+            "answer": "She is"
+          },
+          {
+            "question": "Which words make up 'they're'?",
+            "options": ["They are", "They were", "They is", "They was"],
+            "answer": "They are"
+          },
+          {
+            "question": "What is the expanded form of 'won't'?",
+            "options": ["Would not", "Will not", "Was not", "Were not"],
+            "answer": "Will not"
+          }
+        ]
+      },
+      "week2": {
+        "instruction": "Prefixes and Suffixes",
+        "questions": [
+          {
+            "question": "What does the prefix 'un-' mean in 'unhappy'?",
+            "options": ["Not", "Again", "Under", "Without"],
+            "answer": "Not"
+          },
+          {
+            "question": "What does the suffix '-ful' mean in 'hopeful'?",
+            "options": ["With", "Less", "Full of", "None"],
+            "answer": "Full of"
+          },
+          {
+            "question": "In the word 'replay,' what does 're-' mean?",
+            "options": ["Again", "Before", "Not", "After"],
+            "answer": "Again"
+          },
+          {
+            "question": "What does '-ly' mean in 'quickly'?",
+            "options": ["In a way that is", "Too much", "Before", "After"],
+            "answer": "In a way that is"
+          },
+          {
+            "question": "In 'sadness,' what does '-ness' mean?",
+            "options": ["State of", "Not", "Full of", "With"],
+            "answer": "State of"
+          }
+        ]
+      } ,
+      "week3": {
+        "instruction": "Reading Comprehension",
+        "questions": [
+          {
+            "question": "In the story 'The Tortoise and the Hare,' who wins the race?",
+            "options": ["The tortoise", "The hare", "The fox", "The owl"],
+            "answer": "The tortoise"
+          },
+          {
+            "question": "In 'The Little Red Hen,' who helped the hen bake the bread?",
+            "options": ["The cat", "No one", "The dog", "The mouse"],
+            "answer": "No one"
+          },
+          {
+            "question": "In 'Jack and the Beanstalk,' what does Jack trade for beans?",
+            "options": ["Gold", "A cow", "A horse", "Money"],
+            "answer": "A cow"
+          },
+          {
+            "question": "In 'Cinderella,' what does she lose at the ball?",
+            "options": ["Her slipper", "Her necklace", "Her dress", "Her crown"],
+            "answer": "Her slipper"
+          },
+          {
+            "question": "In 'Goldilocks and the Three Bears,' whose bed does she sleep in?",
+            "options": ["Mama Bear's", "Papa Bear's", "Baby Bear's", "Her own"],
+            "answer": "Baby Bear's"
+          }
+        ]
+      }
+    }
+  }
+}

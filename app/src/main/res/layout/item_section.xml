@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvSectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Section Name"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarter 1"
+        android:textStyle="bold" />
+
+    <!-- Switches for each week in Quarter 1 -->
+    <Switch
+        android:id="@+id/switchQuarter1Week1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 1" />
+
+    <Switch
+        android:id="@+id/switchQuarter1Week2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 2" />
+
+    <Switch
+        android:id="@+id/switchQuarter1Week3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarter 2"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Switches for each week in Quarter 1 -->
+    <Switch
+        android:id="@+id/switchQuarter2Week1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 1" />
+
+    <Switch
+        android:id="@+id/switchQuarter2Week2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 2" />
+
+    <Switch
+        android:id="@+id/switchQuarter2Week3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarter 3"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Switches for each week in Quarter 1 -->
+    <Switch
+        android:id="@+id/switchQuarter3Week1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 1" />
+
+    <Switch
+        android:id="@+id/switchQuarter3Week2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 2" />
+
+    <Switch
+        android:id="@+id/switchQuarter3Week3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarter 4"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Switches for each week in Quarter 1 -->
+    <Switch
+        android:id="@+id/switchQuarter4Week1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 1" />
+
+    <Switch
+        android:id="@+id/switchQuarter4Week2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 2" />
+
+    <Switch
+        android:id="@+id/switchQuarter4Week3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Week 3" />
+
+
+</LinearLayout>
