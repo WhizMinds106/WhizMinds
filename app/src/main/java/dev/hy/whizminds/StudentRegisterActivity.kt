@@ -1,15 +1,12 @@
 package dev.hy.whizminds
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.EditText
-import android.widget.RadioButton
-import android.widget.RadioGroup
-import android.widget.Spinner
-import android.widget.Toast
+import android.util.Log
+import android.view.MotionEvent
+import android.view.View
+import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 
@@ -17,9 +14,20 @@ class StudentRegisterActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
     private lateinit var firestore: FirebaseFirestore
+    private val TAG = "StudentRegisterActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Make the app fullscreen
+        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                )
+
         setContentView(R.layout.activity_student_register)
 
         auth = FirebaseAuth.getInstance()
@@ -34,15 +42,38 @@ class StudentRegisterActivity : AppCompatActivity() {
         val gradeSpinner = findViewById<Spinner>(R.id.spinnerGrade)
         val cancelButton = findViewById<Button>(R.id.btnCancelStudent)
 
-        // Add "Select Grade" as the first option in the grades array
         val grades = arrayOf("Select Grade", "Grade 1", "Grade 2", "Grade 3")
         val gradeAdapter = ArrayAdapter(this, R.layout.spinner_item, grades)
         gradeAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item)
         gradeSpinner.adapter = gradeAdapter
 
+        cancelButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    cancelButton.setBackgroundResource(R.drawable.btn_back_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    cancelButton.setBackgroundResource(R.drawable.btn_back)
+                }
+            }
+            false
+        }
+
         cancelButton.setOnClickListener {
             startActivity(Intent(this, StudentMainActivity::class.java))
             finish()
+        }
+
+        registerButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_register_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_register)
+                }
+            }
+            false
         }
 
         registerButton.setOnClickListener {
@@ -51,7 +82,6 @@ class StudentRegisterActivity : AppCompatActivity() {
             val email = emailEditText.text.toString()
             val password = passwordEditText.text.toString()
 
-            // Get the selected sex from the RadioGroup
             val selectedSexId = sexRadioGroup.checkedRadioButtonId
             val sex = if (selectedSexId != -1) {
                 findViewById<RadioButton>(selectedSexId).text.toString()
@@ -59,18 +89,17 @@ class StudentRegisterActivity : AppCompatActivity() {
                 ""
             }
 
-            // Get the selected grade from the Spinner
             val selectedGrade = gradeSpinner.selectedItem.toString()
 
-            // Check if "Select Grade" is still selected
             if (selectedGrade == "Select Grade") {
                 Toast.makeText(this, "Please select a grade", Toast.LENGTH_SHORT).show()
+                Log.d(TAG, "Grade not selected")
             } else if (name.isNotEmpty() && age.isNotEmpty() && sex.isNotEmpty() && email.isNotEmpty() && password.isNotEmpty()) {
+                Log.d(TAG, "All fields are filled, proceeding with registration")
                 registerStudent(name, age, sex, selectedGrade, email, password)
-                startActivity(Intent(this, StudentDashboardActivity::class.java))
-                finish()
             } else {
                 Toast.makeText(this, "Please fill in all the fields", Toast.LENGTH_SHORT).show()
+                Log.d(TAG, "Missing fields: name=$name, age=$age, sex=$sex, email=$email, password=$password")
             }
         }
     }
@@ -79,15 +108,22 @@ class StudentRegisterActivity : AppCompatActivity() {
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful) {
-                    // Save student info in Firestore
+                    Log.d(TAG, "User account created successfully")
                     saveStudentInfo(auth.currentUser?.uid, name, age, sex, grade, email)
                 } else {
                     Toast.makeText(this, "Registration Failed", Toast.LENGTH_SHORT).show()
+                    Log.e(TAG, "Registration failed: ${task.exception?.message}")
                 }
             }
     }
 
     private fun saveStudentInfo(userId: String?, name: String, age: String, sex: String, grade: String, email: String) {
+        if (userId == null) {
+            Log.e(TAG, "User ID is null; failed to save student info")
+            Toast.makeText(this, "User ID is null; could not save data.", Toast.LENGTH_SHORT).show()
+            return
+        }
+
         val studentData = hashMapOf(
             "name" to name,
             "age" to age,
@@ -97,18 +133,18 @@ class StudentRegisterActivity : AppCompatActivity() {
             "userType" to "Student"
         )
 
-        if (userId != null) {
-            firestore.collection("users").document(userId)
-                .set(studentData)
-                .addOnSuccessListener {
-                    Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
-                    // Navigate to the student's dashboard
-                    startActivity(Intent(this, StudentDashboardActivity::class.java))
-                    finish()
-                }
-                .addOnFailureListener { e ->
-                    Toast.makeText(this, "Failed to save the data: ${e.message}", Toast.LENGTH_SHORT).show()
-                }
-        }
+        firestore.collection("users").document(userId)
+            .set(studentData)
+            .addOnSuccessListener {
+                Toast.makeText(this, "Registration Successful", Toast.LENGTH_SHORT).show()
+                Log.d(TAG, "Student info saved successfully in Firestore")
+                startActivity(Intent(this, StudentMainActivity::class.java))
+                finish()
+                Toast.makeText(this, "Account Created! Please login now.", Toast.LENGTH_SHORT).show()
+            }
+            .addOnFailureListener { e ->
+                Toast.makeText(this, "Failed to save the data: ${e.message}", Toast.LENGTH_SHORT).show()
+                Log.e(TAG, "Failed to save student data: ${e.message}")
+            }
     }
 }

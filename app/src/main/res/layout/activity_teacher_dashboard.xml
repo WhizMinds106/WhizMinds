@@ -18,70 +18,80 @@
                 android:orientation="vertical"
                 android:gravity="center">
 
-            <TextView
-                android:id="@+id/tvTeacher"
-                android:text="TEACHER DASHBOARD"
-                android:textColor="@color/black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="50sp"
-                android:gravity="center"
-                android:layout_margin="10dp" />
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/teacher_dash"
+                    android:layout_marginTop="20dp"/>
 
-            <Button
-                android:id="@+id/btnClass"
-                android:text="Class"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnActivity"
-                android:text="Activities"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                    <Button
+                        android:id="@+id/btnClass"
+                        android:background="@drawable/btn_class"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
 
-            <Button
-                android:id="@+id/btnProfile"
-                android:text="Profile"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                    <Button
+                        android:id="@+id/btnActivity"
+                        android:background="@drawable/btn_act"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
 
-            <Button
-                android:id="@+id/btnStudents"
-                android:text="Students"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                </LinearLayout>
 
-            <Button
-                android:id="@+id/btnAbout"
-                android:text="About Us"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/btnSettings"
-                android:text="Settings"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp" />
+                    <Button
+                        android:id="@+id/btnProfile"
+                        android:background="@drawable/btn_pro"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
+
+                    <Button
+                        android:id="@+id/btnStudents"
+                        android:background="@drawable/btn_students"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnAbout"
+                        android:background="@drawable/btn_about"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
+
+                    <Button
+                        android:id="@+id/btnSettings"
+                        android:background="@drawable/btn_settings"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_margin="10dp" />
+
+                </LinearLayout>
 
             <Button
                 android:id="@+id/btnLogout"
-                android:text="Logout"
-                android:textSize="30sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:background="@drawable/btn_logout"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="10dp" />
 
             </LinearLayout>

@@ -15,6 +15,9 @@
         android:theme="@style/Theme.WhizMinds"
         tools:targetApi="31">
         <activity
+            android:name=".MaintenanceActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuizDetailActivity"
             android:exported="false" />
         <activity

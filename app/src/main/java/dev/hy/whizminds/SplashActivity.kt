@@ -50,7 +50,7 @@ class SplashActivity : AppCompatActivity() {
             MusicManager.shouldPauseMusic = false
             val intent = Intent(this, StudentMainActivity::class.java)
             startActivity(intent)
-            finish()
+            //finish()
         }
     }
 

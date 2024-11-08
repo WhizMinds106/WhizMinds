@@ -7,64 +7,93 @@
     android:background="@drawable/main_bg"
     tools:context=".TeacherMainActivity">
 
+    <Button
+        android:id="@+id/btnBackTeacher"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center">
 
-        <EditText
-            android:id="@+id/etLoginEmail"
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/app_name"
+            android:layout_marginTop="20dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:hint="Email"
-            android:inputType="textEmailAddress"
-            android:layout_margin="10dp"
-            android:background="@color/white"
-            android:textSize="30sp"/>
+            app:startIconDrawable="@drawable/round_person_24">
 
-        <EditText
-            android:id="@+id/etLoginPassword"
+            <EditText
+                android:id="@+id/etLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titan_one"
+                android:inputType="textEmailAddress"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
             android:hint="Password"
-            android:inputType="textPassword"
-            android:layout_margin="10dp"
-            android:background="@color/white"
-            android:textSize="30sp"/>
+            app:startIconDrawable="@drawable/round_vpn_key_24">
 
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Login"
-            android:textSize="30sp"
-            android:layout_margin="10dp"/>
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/titan_one"
+                android:inputType="textPassword"
+                android:layout_margin="10dp"
+                android:textSize="30sp"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btnForgotPassword"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Forgot Password?"
-            android:textSize="30sp"
+            android:textSize="17sp"
+            android:fontFamily="@font/titan_one"
+            android:textColor="@color/white"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn_login"
             android:layout_margin="10dp"/>
 
         <Button
             android:id="@+id/btnRegister"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Create Account"
-            android:textSize="30sp"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/btn_create"
             android:layout_margin="10dp"/>
 
-        <Button
-            android:id="@+id/btnBackTeacher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            android:textSize="30sp"
-            android:layout_margin="10dp"
-            android:background="@color/design_default_color_error"/>
+
 
     </LinearLayout>
 

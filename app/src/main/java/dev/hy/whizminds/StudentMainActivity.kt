@@ -3,6 +3,8 @@ package dev.hy.whizminds
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MotionEvent
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -16,6 +18,16 @@ class StudentMainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Make the app fullscreen
+        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                )
+
         setContentView(R.layout.activity_student_main)
 
         auth = FirebaseAuth.getInstance()
@@ -28,8 +40,32 @@ class StudentMainActivity : AppCompatActivity() {
         val buttonTeacher = findViewById<GifImageButton>(R.id.btn_teacher)
         val exitButton = findViewById<Button>(R.id.btnExitStudent)
 
+        exitButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    exitButton.setBackgroundResource(R.drawable.btn_back_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    exitButton.setBackgroundResource(R.drawable.btn_back)
+                }
+            }
+            false
+        }
+
         exitButton.setOnClickListener {
             showExitConfirmationDialog()
+        }
+
+        registerButton.setOnTouchListener { v, event ->
+            when(event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_create_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_create)
+                }
+            }
+            false
         }
 
         registerButton.setOnClickListener {
@@ -52,6 +88,18 @@ class StudentMainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Enter your email first", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        loginButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    loginButton.setBackgroundResource(R.drawable.btn_login_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    loginButton.setBackgroundResource(R.drawable.btn_login)
+                }
+            }
+            false
         }
 
         loginButton.setOnClickListener {

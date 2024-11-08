@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract.CommonDataKinds.Email
+import android.view.MotionEvent
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -16,6 +18,16 @@ class TeacherMainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Make the app fullscreen
+        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                )
+
         setContentView(R.layout.activity_teacher_main)
 
         auth = FirebaseAuth.getInstance()
@@ -27,9 +39,33 @@ class TeacherMainActivity : AppCompatActivity() {
         val forgotPassword = findViewById<Button>(R.id.btnForgotPassword)
         val backButton = findViewById<Button>(R.id.btnBackTeacher)
 
+        backButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    backButton.setBackgroundResource(R.drawable.btn_back_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    backButton.setBackgroundResource(R.drawable.btn_back)
+                }
+            }
+            false
+        }
+
         backButton.setOnClickListener {
             startActivity(Intent(this, StudentMainActivity::class.java))
             finish()
+        }
+
+        registerButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_create_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    registerButton.setBackgroundResource(R.drawable.btn_create)
+                }
+            }
+            false
         }
 
         registerButton.setOnClickListener {
@@ -52,6 +88,18 @@ class TeacherMainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Enter your email first", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        loginButton.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    loginButton.setBackgroundResource(R.drawable.btn_login_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    loginButton.setBackgroundResource(R.drawable.btn_login)
+                }
+            }
+            false
         }
 
         loginButton.setOnClickListener {

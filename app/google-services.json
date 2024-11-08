@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "796279184",
+    "firebase_url": "https://whizminds-e7c5b-default-rtdb.firebaseio.com",
     "project_id": "whizminds-e7c5b",
     "storage_bucket": "whizminds-e7c5b.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "dev.hy.whizminds"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "796279184-fiorn0616d76nptd8ocitmevb5ph9q5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.hy.whizminds",
+            "certificate_hash": "06ea9fd315befdbcfdf6d444b0fae31284a4f4cd"
+          }
+        },
+        {
+          "client_id": "796279184-uopq2vf93u70a6k6smd06fk7e3vkp2ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA259g3XD2fwkbeIr8inZaasnlVSoPLxTk"
@@ -20,7 +34,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796279184-uopq2vf93u70a6k6smd06fk7e3vkp2ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
