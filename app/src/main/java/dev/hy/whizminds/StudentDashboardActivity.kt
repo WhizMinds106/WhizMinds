@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
+import androidx.appcompat.app.AlertDialog
 
 class StudentDashboardActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,34 +33,43 @@ class StudentDashboardActivity : AppCompatActivity() {
         aboutButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    aboutButton.setBackgroundResource(R.drawable.btn_about_pressed)
+                    aboutButton.setBackgroundResource(R.drawable.about_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    aboutButton.setBackgroundResource(R.drawable.btn_about)
+                    aboutButton.setBackgroundResource(R.drawable.about)
                 }
             }
             false
+        }
+
+        aboutButton.setOnClickListener {
+            startActivity(Intent(this, StudentAboutActivity::class.java))
+            finish()
         }
 
         settingButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    settingButton.setBackgroundResource(R.drawable.btn_settings_pressed)
+                    settingButton.setBackgroundResource(R.drawable.settings_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    settingButton.setBackgroundResource(R.drawable.btn_settings)
+                    settingButton.setBackgroundResource(R.drawable.settings)
                 }
             }
             false
+        }
+        settingButton.setOnClickListener {
+            startActivity(Intent(this, StudentSettingsActivity::class.java))
+            finish()
         }
 
         classButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    classButton.setBackgroundResource(R.drawable.btn_class_pressed)
+                    classButton.setBackgroundResource(R.drawable.class_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    classButton.setBackgroundResource(R.drawable.btn_class)
+                    classButton.setBackgroundResource(R.drawable.class_a)
                 }
             }
             false
@@ -73,10 +83,10 @@ class StudentDashboardActivity : AppCompatActivity() {
         profileButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    profileButton.setBackgroundResource(R.drawable.btn_pro_pressed)
+                    profileButton.setBackgroundResource(R.drawable.profile_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    profileButton.setBackgroundResource(R.drawable.btn_pro)
+                    profileButton.setBackgroundResource(R.drawable.profile)
                 }
             }
             false
@@ -90,31 +100,47 @@ class StudentDashboardActivity : AppCompatActivity() {
         logoutButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    logoutButton.setBackgroundResource(R.drawable.btn_logout_pressed)
+                    logoutButton.setBackgroundResource(R.drawable.logout_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    logoutButton.setBackgroundResource(R.drawable.btn_logout)
+                    logoutButton.setBackgroundResource(R.drawable.logout)
                 }
             }
             false
         }
 
         logoutButton.setOnClickListener {
-            startActivity(Intent(this, SplashActivity::class.java))
-            finish()
+            showExitConfirmationDialog()
         }
 
         activitiesButton.setOnTouchListener { v, event ->
             when(event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    activitiesButton.setBackgroundResource(R.drawable.btn_act_pressed)
+                    activitiesButton.setBackgroundResource(R.drawable.activities_p)
                 }
                 MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
-                    activitiesButton.setBackgroundResource(R.drawable.btn_act)
+                    activitiesButton.setBackgroundResource(R.drawable.activities)
                 }
             }
             false
         }
 
     }
+
+    private fun showExitConfirmationDialog() {
+        AlertDialog.Builder(this)
+            .setMessage("Are you sure you wanted to exit ${getString(R.string.app_name)}?")
+            .setPositiveButton("Yes") { dialog, which ->
+                // User confirmed
+                startActivity(Intent(this, SplashActivity::class.java))
+                finish()
+            }
+            .setNegativeButton("No") { dialog, which ->
+                // User cancelled do nothing
+            }
+            .setTitle("Alert!")
+            .setIcon(R.drawable.icon)
+            .show()
+    }
+
 }

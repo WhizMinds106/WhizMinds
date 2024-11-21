@@ -1,9 +1,14 @@
 package dev.hy.whizminds
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.MotionEvent
+import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.EditText
@@ -24,6 +29,16 @@ class TeacherCodeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Make the app fullscreen
+        window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                or View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                or View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY
+                )
+
         setContentView(R.layout.activity_teacher_code)
 
         firestore = FirebaseFirestore.getInstance()
@@ -35,12 +50,24 @@ class TeacherCodeActivity : AppCompatActivity() {
         val gradeSpinner = findViewById<Spinner>(R.id.spinnerGrade)
         val subjectRadioGroup = findViewById<RadioGroup>(R.id.rgSubject)
         val btnBack = findViewById<Button>(R.id.btnBackTeacher)
+        val btnCopyCode = findViewById<Button>(R.id.btnCopyCode)
 
         val grades = arrayOf("Select Grade", "Grade 1", "Grade 2", "Grade 3")
         val gradeAdapter = ArrayAdapter(this, R.layout.spinner_item, grades)
         gradeAdapter.setDropDownViewResource(R.layout.spinner_dropdown_item)
         gradeSpinner.adapter = gradeAdapter
 
+        btnGenerateCode.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    btnGenerateCode.setBackgroundResource(R.drawable.gen_p)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    btnGenerateCode.setBackgroundResource(R.drawable.gen)
+                }
+            }
+            false
+        }
         btnGenerateCode.setOnClickListener {
             val sectionName = etSectionName.text.toString().trim()
 
@@ -66,6 +93,38 @@ class TeacherCodeActivity : AppCompatActivity() {
             }
         }
 
+        btnCopyCode.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    btnCopyCode.setBackgroundResource(R.drawable.copy_p)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    btnCopyCode.setBackgroundResource(R.drawable.copy)
+                }
+            }
+            false
+        }
+        btnCopyCode.setOnClickListener {
+            val generatedCode = tvGenerateCode.text.toString()
+            if (generatedCode.isNotBlank()) {
+                copyToClipboard(generatedCode)
+                Toast.makeText(this, "Code copied to clipboard!", Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, "No code to copy!", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        btnBack.setOnTouchListener { v, event ->
+            when (event.action) {
+                MotionEvent.ACTION_DOWN -> {
+                    btnBack.setBackgroundResource(R.drawable.btn_back_pressed)
+                }
+                MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                    btnBack.setBackgroundResource(R.drawable.btn_back)
+                }
+            }
+            false
+        }
         btnBack.setOnClickListener {
             startActivity(Intent(this, TeacherClassActivity::class.java))
             finish()
@@ -119,5 +178,11 @@ class TeacherCodeActivity : AppCompatActivity() {
     // Get the currently logged-in teacher's ID
     private fun getCurrentTeacherId(): String? {
         return auth.currentUser?.uid
+    }
+
+    private fun copyToClipboard(text: String) {
+        val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val clip = ClipData.newPlainText("Section Code", text)
+        clipboard.setPrimaryClip(clip)
     }
 }

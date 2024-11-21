@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Resume music
-        MusicManager.resumeMusic()
+        //MusicManager.resumeMusic()
 
         // Button Reference
         val buttonStudent = findViewById<Button>(R.id.btn_student)
@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         // Resume music only if needed
-        MusicManager.resumeMusic()
+        //MusicManager.resumeMusic()
     }
 
     override fun onDestroy() {

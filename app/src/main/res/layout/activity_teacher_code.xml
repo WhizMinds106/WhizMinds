@@ -7,6 +7,15 @@
     android:background="@drawable/main_bg"
     tools:context=".TeacherCodeActivity">
 
+    <Button
+        android:id="@+id/btnBackTeacher"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,6 +26,7 @@
         <EditText
             android:id="@+id/etSectionName"
             android:textSize="30sp"
+            android:fontFamily="@font/titan_one"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Section Name"
@@ -33,12 +43,14 @@
             android:id="@+id/rgSubject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
             <RadioButton
                 android:id="@+id/rbMath"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
+                android:fontFamily="@font/titan_one"
                 android:text="Math"/>
 
             <Space
@@ -50,18 +62,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="30sp"
+                android:fontFamily="@font/titan_one"
                 android:text="English"/>
         </RadioGroup>
 
         <!-- Generate Section Code Button -->
         <Button
             android:id="@+id/btnGenerateCode"
-            android:textSize="30sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Generate Section Code"
-            android:padding="12dp"
-            android:layout_marginTop="16dp" />
+            android:background="@drawable/gen"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp" />
 
         <!-- Display Generated Section Code -->
         <TextView
@@ -76,13 +87,14 @@
             android:padding="12dp" />
 
         <Button
-            android:id="@+id/btnBackTeacher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            android:textSize="30sp"
-            android:layout_margin="10dp"
-            android:background="@color/design_default_color_error"/>
+            android:id="@+id/btnCopyCode"
+            android:background="@drawable/copy"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp" />
+
+
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

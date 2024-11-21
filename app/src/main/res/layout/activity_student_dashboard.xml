@@ -24,73 +24,50 @@
                 android:src="@drawable/student_dash"
                 android:layout_marginTop="20dp"/>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <Button
                     android:id="@+id/btnClass"
-                    android:background="@drawable/btn_class"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/class_a"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
 
                 <Button
                     android:id="@+id/btnActivity"
-                    android:background="@drawable/btn_act"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/activities"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btnProfile"
-                    android:background="@drawable/btn_pro"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/profile"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
 
                 <Button
                     android:id="@+id/btnAbout"
-                    android:background="@drawable/btn_about"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/about"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/btnSettings"
-                    android:background="@drawable/btn_settings"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/settings"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
 
                 <Button
                     android:id="@+id/btnLogout"
-                    android:background="@drawable/btn_logout"
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:background="@drawable/logout"
+                    android:layout_width="300dp"
+                    android:layout_height="80dp"
                     android:layout_margin="10dp" />
-
-            </LinearLayout>
 
         </LinearLayout>
 
     </ScrollView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

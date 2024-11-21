@@ -167,7 +167,8 @@ class StudentMainActivity : AppCompatActivity() {
             .setMessage("Are you sure you wanted to exit ${getString(R.string.app_name)}?")
             .setPositiveButton("Yes") { dialog, which ->
                 // User confirmed
-                finishAndRemoveTask()
+                startActivity(Intent(this, SplashActivity::class.java))
+                finish()
             }
             .setNegativeButton("No") { dialog, which ->
                 // User cancelled do nothing

@@ -25,13 +25,11 @@
         <!-- Back button -->
         <Button
             android:id="@+id/btnBackTeacher"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            android:textSize="20sp"
-            android:layout_marginTop="10dp"
-            android:backgroundTint="@color/design_default_color_error"
-            android:textColor="@android:color/white"/>
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_back"
+            android:layout_gravity="center"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
